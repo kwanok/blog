@@ -14,4 +14,4 @@ show_projects_first = false
 social_media_card = "social_cards/index.png"
 +++
 
-포기를 모르는 소프트웨어 엔지니어 노관옥입니다.
+포기를 모르는 엔지니어 노관옥입니다.
