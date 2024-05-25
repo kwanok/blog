@@ -6,17 +6,8 @@
     <script>
         window.goatcounter.visit_count({append: 'body'})
     </script>
-    {# Prevent non-demo sites from using the demo analytics account #}
-    {% if self_hosted_url == "https://tabi-stats.osc.garden" and config.base_url == "https://welpo.github.io/tabi" or self_hosted_url != "https://tabi-stats.osc.garden" %}
-    <script async
-    {% if self_hosted_url %}
-        data-goatcounter="{{ self_hosted_url ~ '/count' }}"
-        src="{{ self_hosted_url ~ '/count.js' }}"
-    {% else %}
-        data-goatcounter="https://{{ analytics_id }}.goatcounter.com/count"
-        src="//gc.zgo.at/count.js"
-        {% endif %}
-    ></script>
+    <script data-goatcounter="https://kwanok.goatcounter.com/count"
+            async src="//gc.zgo.at/count.js"></script>
     {% endif %}
 
 {% elif analytics_service == "umami" %}
