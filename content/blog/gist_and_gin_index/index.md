@@ -1,7 +1,7 @@
 +++
 title="[PostgreSQL] 검색을 위한 GIN Index"
 date=2024-05-20 10:40:00
-updated=2024-05-20 10:40:00
+updated=2024-05-20
 description="PostgreSQL에서 제공하는 GIN Index를 사용하여 검색 기능을 구현하는 방법을 알아봅니다."
 
 [taxonomies]

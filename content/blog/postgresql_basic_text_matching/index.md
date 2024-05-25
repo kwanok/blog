@@ -1,7 +1,7 @@
 +++
 title="[PostgreSQL] 검색을 위한 Basic Text Matching"
 date=2024-05-20 01:17:00
-updated=2024-05-20 01:17:00
+updated=2024-05-20
 description="PostgreSQL에서 Full Text Search를 사용하여 기본적인 텍스트 매칭을 수행하는 방법을 알아봅니다."
 
 [taxonomies]

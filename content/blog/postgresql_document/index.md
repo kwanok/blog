@@ -1,7 +1,7 @@
 +++
 title="[PostgreSQL] 검색을 위한 Document"
 date=2024-05-19 22:45:00
-updated=2024-05-19 22:45:00
+updated=2024-05-19
 description="PostgreSQL에서 제공하는 Full Text Search 기능을 사용하여 검색 기능을 구현하는 방법을 알아봅니다."
 
 [taxonomies]

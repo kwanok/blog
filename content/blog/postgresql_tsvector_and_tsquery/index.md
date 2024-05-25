@@ -1,7 +1,7 @@
 +++
 title="[PostgreSQL] 검색을 위한 tsvector와 tsquery"
 date=2024-05-20 00:10:00
-updated=2024-05-20 00:10:00
+updated=2024-05-20
 description="PostgreSQL에서 Full Text Search를 위한 데이터 타입인 tsvector와 tsquery에 대해 알아봅니다."
 
 [taxonomies]
