@@ -4,10 +4,16 @@
 
 {% if analytics_service == "goatcounter" %}
     <script>
-        window.goatcounter.visit_count({append: 'body'})
+        var t = setInterval(function() {
+            if (window.goatcounter && window.goatcounter.visit_count) {
+                clearInterval(t)
+                window.goatcounter.visit_count({append: 'body'})
+            }
+        }, 100)
     </script>
-    <script data-goatcounter="https://kwanok.goatcounter.com/count"
-        async src="//gc.zgo.at/count.js"></script>
+    <script data-goatcounter="https://stats.kwanok.me/count"
+            async src="//gc.zgo.at/count.js"></script>
+
 
 {% elif analytics_service == "umami" %}
     <script async defer
