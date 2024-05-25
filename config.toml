@@ -216,7 +216,7 @@ encode_plaintext_email = true  # Setting is ignored if email is already encoded.
 socials = [
     { name = "github", url = "https://github.com/kwanok/", icon = "github" },
     { name = "instagram", url = "https://instagram.com/kwanoknoh", icon = "instagram" },
-    { name = "linkedin", url = "https://www.linkedin.com/in/kwanok/", icon = "linkedin" },
+    { name = "linkedin", url = "https://www.linkedin.com/in/kwanoknoh/", icon = "linkedin" },
 ]
 
 # Extra menu to show on the footer, below socials section.
