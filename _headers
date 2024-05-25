@@ -1,0 +1,2 @@
+/*
+  Content-Security-Policy: connect-src 'self' gc.zgo.at kwanok.goatcounter.com;
