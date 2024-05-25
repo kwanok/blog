@@ -22,8 +22,8 @@ content="default-src 'self'
     {%- else -%}
         {%- if config.extra.analytics.service -%}
             {%- if config.extra.analytics.service == "goatcounter" -%}
-                {%- set script_src = script_src ~ " gc.zgo.at kwanok.goatcounter.com" -%}
-                {%- set connect_src = connect_src ~ " gc.zgo.at" -%}
+                {%- set script_src = script_src ~ " gc.zgo.at" -%}
+                {%- set connect_src = connect_src ~ " gc.zgo.at kwanok.goatcounter.com" -%}
             {%- elif config.extra.analytics.service == "umami" -%}
                 {%- set script_src = script_src ~ " analytics.eu.umami.is" -%}
                 {%- set connect_src = connect_src ~ " *.umami.dev" ~ " analytics.eu.umami.is" -%}
