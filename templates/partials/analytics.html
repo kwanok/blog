@@ -3,6 +3,13 @@
 {% set self_hosted_url = config.extra.analytics.self_hosted_url | default(value="") %}
 
 {% if analytics_service == "goatcounter" %}
+    <script>
+        window.goatcounter = {
+            path: function() {
+                return location.pathname + '?page=' + (goatcounter.get_query('page')) || '/'),
+            },
+        }
+    </script>
     {# Prevent non-demo sites from using the demo analytics account #}
     {% if self_hosted_url == "https://tabi-stats.osc.garden" and config.base_url == "https://welpo.github.io/tabi" or self_hosted_url != "https://tabi-stats.osc.garden" %}
     <script async
