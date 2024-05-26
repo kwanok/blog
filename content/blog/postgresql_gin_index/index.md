@@ -1,9 +1,8 @@
 +++
-title="[PostgreSQL] 검색을 위한 GIN Index"
+title="[PostgreSQL] 검색을 위한 GIN Index 소개"
 date=2024-05-26 05:00:00
 updated=2024-05-26
 description="PostgreSQL에서 제공하는 GIN Index를 사용하여 검색 기능을 구현하는 방법을 알아봅니다."
-draft=true
 
 [taxonomies]
 tags=["gin", "index", "postgresql", "database", "search"]
@@ -65,17 +64,14 @@ GIN은 항상 키를 저장하고, 검색하며 아이템 값 자체를 검색�
 
 ![gin_index](/images/gin_index_4.png)
 
-## GIN Index의 더 깊은 구조
 
-앞에 설명한 것은 GIN Index의 기본 개념이었습니다. 위 예시를 DB에 적용하기엔 데이터가 너무 적어서 실제로 GIN Index를 "사용 가능하도록" 만들기 위해 더 자세하게 설명해보겠습니다.
-
-
-
-
-## GIN Index의 장점
+## GIN Index가 잘하는 일
 
 - DBA같은 데이터베이스 전문가가 아닌 사람도 쉽게 사용할 수 있습니다.
-
+- 복합적인 데이터를 처리할 때 빠른 검색 속도를 제공합니다.
+- 특정 단어를 포함하는 문서를 빠르게 찾을 수 있습니다.
+- auto-vacuum 기능을 지원해서 인덱스를 자동으로 관리하고 최적화할 수 있습니다.
+- 다양한 데이터 타입을 지원합니다. 아래 표 참고
 
 ## Built-in Operator Classes
 
