@@ -1,2 +1,2 @@
 /*
-  Content-Security-Policy: script-src  https://gc.zgo.at connect-src https://kwanok.goatcounter.com/count
+  Content-Security-Policy: script-src  https://gc.zgo.at connect-src https://stats.kwanok.me/count
