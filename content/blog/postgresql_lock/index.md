@@ -1,11 +1,11 @@
 +++
-title="[PostgreSQL] PostgreSQL에서의 Lock"
+title="[PostgreSQL] Lock의 종류"
 date=2024-06-08 00:49:00
 updated=2024-06-08
 description="PostgreSQL에서 제공하는 Lock Mode에 대해 알아보고, 어떻게 사용할 수 있는지 알아봅니다."
 
 [taxonomies]
-tags=["lock", "postgresql", "database"]
+tags=["lock", "postgresql", "database", "concurrency", "transaction", "deadlock"]
 
 [extra]
 giscus = true
