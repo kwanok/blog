@@ -27,6 +27,7 @@ Instagram: [@kwanoknoh](https://www.instagram.com/kwanoknoh/)
 
 ## Timeline
 
+- 2024.07 ~ 현재: [라프텔](https://laftel.net/) Backend Engineer
 - 2023.11 ~ 2024.04: [부스트캠프 AI Tech](https://boostcamp.connect.or.kr/) 6기 Recommendation System
 - 2023.02 ~ 2023.08: [엘리스](https://elice.io) - Backend Engineer
 - 2021.03 ~ 2023.02: [트래볼루션](https://travolution.co.kr) - Full Stack Engineer
