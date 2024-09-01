@@ -12,6 +12,7 @@ toc=true
 giscus=true
 quick_navigation_buttons=true
 katex = true
+social_media_card = "TF-IDF - 1.png"
 +++
 
 # TF-IDF 란?
