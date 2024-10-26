@@ -5,7 +5,7 @@ updated=2024-10-27
 description="Amazon VPC Private Subnet 과 NAT Gateway 를 효과적으로 활용하여 필요한 인터넷 연결을 유지하면서 외부 액세스를 제한하여 AWS 네트워크 보안을 강화하는 방법을 알아보아요"
 
 [taxonomies]
-tags=["AWS", "VPC", Subnet, NAT "Gateway"]
+tags=["AWS", "VPC", "Subnet", "NAT Gateway"]
 
 [extra]
 toc=true
