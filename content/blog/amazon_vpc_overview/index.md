@@ -5,7 +5,7 @@ updated=2024-10-13
 description="Amazon VPC 보안 그룹과 CIDR에 대해 알아보는 글입니다."
 
 [taxonomies]
-tags=["AWS", "VPC", "Secrity Group", "NAC", "CID"]
+tags=["AWS", "VPC", "Secrity Group", "NACL", "CIDR"]
 
 [extra]
 toc=true
