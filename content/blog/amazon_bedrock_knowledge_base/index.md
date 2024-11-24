@@ -1,8 +1,8 @@
 +++
-title="Amazon Bedrock "
+title="Amazon Bedrock 그리고 Knowledge Base 알아보기"
 date=2024-11-24 21:00:00
 updated=2024-11-24
-description=""
+description="Amazon Bedrock에 대해 알아보고, 어떤 서비스인지, 어떻게 사용하는지에 대해 알아보겠습니다."
 
 [taxonomies]
 tags=["AWS", "Bedrock", "Knowledge Base"]
@@ -18,7 +18,7 @@ katex = true
 
 이번 글에서는 Amazon Bedrock에 대해 알아보고, 어떤 서비스인지, 어떻게 사용하는지에 대해 알아보겠습니다.
 
-그럼 시작해보겠습니다. 😊
+그럼 렛츠고우! 🚀
 
 # Amazon Bedrock
 
@@ -50,7 +50,7 @@ Knowledge Base는 최신의 정보도 프롬프트에 넣어서 질문하므로 
 
 LLM은 학습하지 못한 새로운 정보나 특정 주제에 대해 정밀한 정보가 없으면 할루시네이션을 발생시킬 수 있어요.
 
-이 역시 Knowledge Base로 정확한 데이터를 주입시켜서 
+이 역시 Knowledge Base로 정확한 데이터를 주입시켜서 정확한 정보를 제공할 수 있어요.
 
 ### 4. 모델 재학습 불필요
 
@@ -64,7 +64,7 @@ LLM은 학습하지 못한 새로운 정보나 특정 주제에 대해 정밀한
 
 참고로, Root 계정이 아닌 IAM 계정을 사용해야 Knowledge Base를 생성할 수 있습니다.
 
-1. 모델 엑세스 권한 얻기
+### 1. 모델 엑세스 권한 얻기
 
 첫 번째로, 모델 엑세스 권한을 얻어야 합니다.
 
@@ -76,7 +76,7 @@ Amazon Bedrock → Bedrock configuration → 모델 엑세스 → 모델 엑세�
 
 다음을 누르면, 회사 정보를 넣으라고 하는데 그냥 학습용이면 대충 넣어도 괜찮습니다.
 
-2. Knowledge Base 생성
+### 2. Knowledge Base 생성
 
 모델 엑세스 권한을 얻기만 해도 Chat GPT처럼 챗봇을 쓸 수 있지만, Knowledge Base를 생성해서 더 멋진 모델을 만들어보겠습니다.
 
@@ -108,6 +108,8 @@ Knowledge Base는 벡터 데이터베이스를 사용해서, 이 Chunking 옵션
 
 마지막으로 임베딩 모델을 선택하고, 생성을 누르면 Opensearch Serverless로 벡터 데이터베이스로 Knowledge Base가 생성됩니다.
 
+### 3. Notion에서 마크다운 내보내기
+
 ![Knowledge Base 6](image-8.png)
 
 이 이미지는 제가 예전에 정리하던 블로그인데... 약 200개 정도의 페이지가 있습니다.
@@ -121,6 +123,8 @@ Knowledge Base는 벡터 데이터베이스를 사용해서, 이 Chunking 옵션
 이렇게 내보낸 마크다운을 S3에 넣어서 Knowledge Base로 사용하면 됩니다.
 
 ![Alt text](image-12.png)
+
+### 4. FM + Knowledge Base 사용해보기
 
 제가 이전에 쓰다 중단한 글이 있는데... 과연 이 정보를 알아낼 수 있을지 테스트해보겠습니다.
 
