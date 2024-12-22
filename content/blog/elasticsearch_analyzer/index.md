@@ -61,7 +61,7 @@ Analyzer는 Elasticsearch에서 제공하는 **텍스트 전처리 도구** 입�
 
 Analyzer는 텍스트를 단순히 **토큰화(Tokenization)** 하는 것을 넘어서, 다양한 전처리 과정을 거쳐 텍스트를 처리합니다.
 
-### 1. 문자 필터(Char Filter)
+## 1. 문자 필터(Char Filter)
 
 - Analyzing 에서 가장 먼저 일어나는 일입니다.
 - 텍스트에서 특수 문자를 제거하거나, HTML 태그를 제거하는 등의 전처리 작업을 수행합니다.
