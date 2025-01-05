@@ -5,7 +5,7 @@ updated=2025-01-05
 description="2024년은 나에게 어떤 해였는가?"
 
 [taxonomies]
-tags=[]
+tags=["회고"]
 
 [extra]
 giscus=true
