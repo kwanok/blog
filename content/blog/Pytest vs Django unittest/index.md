@@ -11,6 +11,7 @@ tags=["Django", "pytest", "테스트", "Python"]
 giscus = true
 quick_navigation_buttons = true
 toc=true
+social_media_card="127-0-0-11111-blog-pytest-vs-django-unittest.jpg"
 +++
 
 # 들어가며
