@@ -222,4 +222,4 @@ WAL 버퍼는 공유 메모리의 WAL 데이터를 임시로 저장하는 공간
 
 # 8. 출처
 
-- https://www.postgresql.org/docs/17/wal.html
+- [https://www.postgresql.org/docs/17/wal.html](https://www.postgresql.org/docs/17/wal.html)
